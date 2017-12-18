@@ -1,0 +1,22 @@
+Started GET "/api/v1/campers" for ::1 at 2017-09-15 19:47:12 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (72.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Api::V1::CampersController#index as HTML
+  [1m[36mCamper Load (57.8ms)[0m  [1m[34mSELECT "campers".* FROM "campers"[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (15.38ms)
+Completed 200 OK in 483ms (Views: 130.4ms | ActiveRecord: 281.7ms)
+
+
+Started GET "/api/v1/campers" for ::1 at 2017-09-15 19:48:04 -0700
+Processing by Api::V1::CampersController#index as HTML
+  [1m[36mCamper Load (0.6ms)[0m  [1m[34mSELECT "campers".* FROM "campers"[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.79ms)
+Completed 200 OK in 19ms (Views: 11.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/api/v1/campers" for ::1 at 2017-09-15 19:48:07 -0700
+Processing by Api::V1::CampersController#index as HTML
+  [1m[36mCamper Load (1.5ms)[0m  [1m[34mSELECT "campers".* FROM "campers"[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (2.04ms)
+Completed 200 OK in 8ms (Views: 5.5ms | ActiveRecord: 1.5ms)
+
+
